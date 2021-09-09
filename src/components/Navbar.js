@@ -1,11 +1,15 @@
+import logo from '../assets/coinesco-logo.png';
 import './Navbar.css';
 
 const Navbar = () => (
   <div className="Nav">
-    <span className="Display-Block">coinesco</span>
-    <span className="Display-Block">HOME</span>
-    <span className="Display-Block">COLLECTIONS</span>
-    <span className="Display-Block">PURCHASE LIST</span>
+    <div className="Logo-Container">
+      <img className="Logo-Img" src={logo} alt="coinesco logo" />
+    </div>
+    <div className="Options-Container">
+      <div className="Nav-Option Cart" />
+      <div className="Nav-Option Profile" />
+    </div>
   </div>
 );
 

@@ -1,7 +1,26 @@
 .Nav {
-  border: 1px solid black;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .Display-Block {
   display: block;
+}
+
+.Logo-Img {
+  width: 6em;
+  height: auto;
+}
+
+.Nav-Option {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  margin: 0 5px;
+}
+
+.Options-Container {
+  display: flex;
+  align-items: center;
 }
